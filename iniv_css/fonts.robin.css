@@ -1,0 +1,97 @@
+/* Typografie*/
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('BrutalType-ExtraLight.eot');
+    src: local('Brutal Type Extra Light'), local('BrutalType-ExtraLight'),
+        url('BrutalType-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('BrutalType-ExtraLight.woff2') format('woff2'),
+        url('BrutalType-ExtraLight.woff') format('woff'),
+        url('BrutalType-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('BrutalType-Medium.eot');
+    src: local('Brutal Type Medium'), local('BrutalType-Medium'),
+        url('BrutalType-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BrutalType-Medium.woff2') format('woff2'),
+        url('BrutalType-Medium.woff') format('woff'),
+        url('BrutalType-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('BrutalType-Bold.eot');
+    src: local('Brutal Type Bold'), local('BrutalType-Bold'),
+        url('BrutalType-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BrutalType-Bold.woff2') format('woff2'),
+        url('BrutalType-Bold.woff') format('woff'),
+        url('BrutalType-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('BrutalType-Thin.eot');
+    src: local('Brutal Type Thin'), local('BrutalType-Thin'),
+        url('BrutalType-Thin.eot?#iefix') format('embedded-opentype'),
+        url('BrutalType-Thin.woff2') format('woff2'),
+        url('BrutalType-Thin.woff') format('woff'),
+        url('BrutalType-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('BrutalType-ExtraBold.eot');
+    src: local('Brutal Type Extra Bold'), local('BrutalType-ExtraBold'),
+        url('BrutalType-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('BrutalType-ExtraBold.woff2') format('woff2'),
+        url('BrutalType-ExtraBold.woff') format('woff'),
+        url('BrutalType-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('BrutalType-Black.eot');
+    src: local('Brutal Type Black'), local('BrutalType-Black'),
+        url('BrutalType-Black.eot?#iefix') format('embedded-opentype'),
+        url('BrutalType-Black.woff2') format('woff2'),
+        url('BrutalType-Black.woff') format('woff'),
+        url('BrutalType-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('BrutalType-Light.eot');
+    src: local('Brutal Type Light'), local('BrutalType-Light'),
+        url('BrutalType-Light.eot?#iefix') format('embedded-opentype'),
+        url('BrutalType-Light.woff2') format('woff2'),
+        url('BrutalType-Light.woff') format('woff'),
+        url('BrutalType-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('BrutalType.eot');
+    src: local('Brutal Type'), local('BrutalType'),
+        url('BrutalType.eot?#iefix') format('embedded-opentype'),
+        url('BrutalType.woff2') format('woff2'),
+        url('BrutalType.woff') format('woff'),
+        url('BrutalType.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
