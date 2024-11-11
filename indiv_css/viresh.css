@@ -17,6 +17,8 @@
     --text-on-brand: #ffffff;
 }
 
+
+/* Typografie */
 * {
     line-height: 24px;
 }
@@ -73,7 +75,7 @@
 
 
 
-/* Typografie */
+/* Forms */
 .icon-search {
     font-size: 10px;
     height: 24px;

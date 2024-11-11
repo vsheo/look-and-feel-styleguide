@@ -3,11 +3,113 @@
 
 
 /* Kleuren */
-.color-example {
-    background-color: #bada55;
+.brand-primary {
+    background-color: #0091FF;
+}
+.brand-secondary {
+    background-color: #E60063;
+}
+.brand-footer {
+    background-color: #011564;
+}
+.brand-neutral {
+    background-color: #fafafa;
 }
 
+.background-neutral {
+    background-color: #ffffff;
+}
+
+.text-primary {
+    background-color: #000000;
+}
+.text-secondary {
+    background-color: #8B8B8B;
+}
+.text-on-brand {
+    background-color: #ffffff;
+}
+
+
+
 /* Typografie */
+* {
+    line-height: 24px;
+}
+
+.font-nav-primary {
+    font: var(--font-primary);
+    color: var(--text-on-brand);
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.font-nav-secondary {
+    font: var(--font-primary);
+    color: var(--brand-secondary);
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.font-card-title {
+    font: var(--font-primary);
+    color: var(--text-primary);
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.font-card-description {
+    font: var(--font-primary);
+    color: var(--text-secondary);
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.font-card-info {
+    font: var(--font-primary);
+    color: var(--text-secondary);
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 18px;
+}
+
+.font-info {
+    font: var(--font-primary);
+    color: var(--text-primary);
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.font-title {
+    font: var(--font-primary);
+    color: var(--text-primary);
+    font-size: 16px;
+    font-weight: 900;
+}
 
 
 /* Formulier elementen */
+.icon-search {
+    font-size: 10px;
+    height: 24px;
+    width: 24px;
+    line-height: 15px;
+    color: var(--text-on-brand);
+}
+
+.button-highlight {
+    font-size: 10px;
+    height: 24px;
+    width: 24px;
+    line-height: 15px;
+    color: var(--text-on-brand);
+    background-color: var(--brand-secondary);
+    padding: 8px 16px;
+    opacity: 0,5;
+}
+
+.input-placeholder {
+    font-size: 16px;
+    color: var(--text-secondary);
+    padding: 7px 16px;
+}
