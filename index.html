@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Projectnaam] - Styleguide</title>
+    <title>Mediahuis - Styleguide</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="projectnaam.css">
+    <link rel="stylesheet" href="mediahuis.css">
   </head>
   <body>
 
@@ -32,36 +32,38 @@
       <p>Bij het onderdeel kleuren staat het kleurgebruik.</p>
 
       <figure>
-        <code class="brand-primary">#333333</code>
-        <figcaption>Kleur 1</figcaption>
+        <code class="brand-primary">#0091FF</code>
+        <figcaption>Brand-kleur</figcaption>
       </figure>
       <figure>
-        <code class="brand-secondary">#666666</code>
-        <figcaption>Kleur 2</figcaption>
+        <code class="brand-secondary">#E60063</code>
+        <figcaption>Accent-kleur</figcaption>
       </figure>
       <figure>
-        <code class="brand-footer">#999999</code>
-        <figcaption>Kleur 3</figcaption>
+        <code class="brand-footer" style="color: white;">#011564</code>
+        <figcaption>Footer-kleur</figcaption>
       </figure>
       <figure>
-        <code class="brand-neutral">#bada55</code>
-        <figcaption>Etc</figcaption>
+        <code class="brand-neutral" style="border: 1px solid black">#fafafa</code>
+        <figcaption>Achtergrond-kleur Algemeen</figcaption>
       </figure>
       <figure>
-        <code class="background-neutral">#bada55</code>
-        <figcaption>Etc</figcaption>
+
+        <code class="background-neutral" style="border: 1px solid black">#ffffff</code>
+        <figcaption>Showblokken & Sidebar Achtergrond-kleur</figcaption>
+      </figure>
+
+      <figure>
+        <code class="text-primary" style="color: white;">#000000</code>
+        <figcaption>Tekst-kleur zwart</figcaption>
       </figure>
       <figure>
-        <code class="text-primary">#bada55</code>
-        <figcaption>Etc</figcaption>
+        <code class="text-secondary">#8B8B8B</code>
+        <figcaption>Tekst-kleur grijs</figcaption>
       </figure>
       <figure>
-        <code class="text-secondary">#bada55</code>
-        <figcaption>Etc</figcaption>
-      </figure>
-      <figure>
-        <code class="text-on-brand">#bada55</code>
-        <figcaption>Etc</figcaption>
+        <code class="text-on-brand" style="border: 1px solid black">#ffffff</code>
+        <figcaption>Tekst-kleur wit</figcaption>
       </figure>
 
     </section>
@@ -78,27 +80,57 @@
       <h4 class="">Kop 4</h4>
       <h5 class="">Kop 5</h5>
 
+
+      <span class="font-nav-primary">font-nav-primary<br>gebruikt voor</span><br><br>
+
+      <span class="font-nav-secondary">font-nav-secondary<br>gebruikt voor</span><br><br>
+
+      <span class="font-card-title">font-card-title<br>gebruikt voor</span><br><br>
+
+      <span class="font-card-description">font-card-description<br>gebruikt voor</span><br><br>
+
+      <span class="font-card-info">font-card-info<br>gebruikt voor</span><br><br>
+      
+      <span class="font-info">font-info<br>gebruikt voor</span><br><br>
+
+      <span class="font-title">font-title<br>gebruikt voor</span><br><br>
+
+
       <p class="">Simpele alinea's</p>
-      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      <!-- grijze tekst -->
+      <p class="font-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+      <!-- zwartte tekst -->
+      <p class="font-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
 
+
+      <!-- week lijst? -->
       <ul class="">
         <li>Ongeordende lijsten met items</li>
         <li>Met nog meer items</li>
         <li>En nog een item</li>
       </ul>
 
-      <ol class="">
-        <li>Geordende lijsten met items</li>
-        <li>Met nog meer items</li>
-        <li>En nog een item</li>
+      <!-- tijd lijn -->
+      <span><strong>geordende lijst voor de tijd lijn</strong></span>
+      <ol class="tijd-lijn" style="margin-top: -1.5em;">
+        <li>0:00</li>
+        <li>1:00</li>
+        <li>2:00</li>
       </ol>
 
-      <table class="">
+
+      <!-- n.v.t -->
+      <!-- <table class="">
         <thead>
           <tr>
             <th>Tabelkop</th>
@@ -139,7 +171,7 @@
             <td>Tabeldata</td>
           </tr>
         </tbody>
-      </table>
+      </table> -->
 
     </section>
 
@@ -155,7 +187,9 @@
           <input type="text" class="">
         </label>
 
-        <fieldset class="">
+
+        <!-- n.v.t -->
+        <!-- <fieldset class="">
           <legend class="">Radio options:</legend>
 
           <label class="">
@@ -172,9 +206,11 @@
             <input type="radio" name="radio-options" value="option 3" class="">
             Option 3
           </label>
-        </fieldset>
-        
-        <fieldset class="">
+        </fieldset> -->
+
+
+        <!-- n.v.t -->
+        <!-- <fieldset class="">
           <legend class="">Checkbox</legend>
 
           <label class="">
@@ -191,25 +227,32 @@
             <input type="checkbox" name="chekcbox-3" class="">
             Checkbox 3
           </label>
-        </fieldset>
+        </fieldset> -->
 
+        <!-- search bar -->
         <label class="">
           Search: 
-          <input type="search" class="">
+          <input type="search" placeholder="zoek ....." class="input-placeholder">
         </label>
         
-        <label class="">
+
+        <!-- n.v.t -->
+        <!-- <label class="">
           Tel: 
           <input type="tel" class="">
-        </label>
+        </label> -->
 
-        <label class="">
+
+        <!-- n.v.t -->
+        <!-- <label class="">
           Range: 
           <input type="range" class="">
-        </label>
+        </label> -->
+
 
         <input type="submit" value="Submit button" class="">
         
+
         <button type="button" class="">Button</button>
       </form>
     

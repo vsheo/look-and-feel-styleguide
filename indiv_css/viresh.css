@@ -101,3 +101,24 @@
     padding: 7px 16px;
 }
 
+/* tijd lijn */
+.tijd {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -1em;
+
+    li::after {
+        display: block;
+                        
+        content: "- - - - -";
+        transform: rotate(90deg);
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        white-space: nowrap;
+    }
+
+    li:last-child::after {
+        content: '';
+    }
+}

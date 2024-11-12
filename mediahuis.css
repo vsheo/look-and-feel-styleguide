@@ -3,6 +3,21 @@
 
 
 /* Kleuren */
+:root {
+    --font-primary: "Brutal Type";
+
+    --brand-primary: #0091FF;
+    --brand-secondary: #E60063;
+    --brand-footer: #011564;
+    --brand-neutral: #fafafa;
+
+    --background-neutral: #ffffff;
+
+    --text-primary: #000000;
+    --text-secondary: #8B8B8B;
+    --text-on-brand: #ffffff;
+}
+
 .brand-primary {
     background-color: #0091FF;
 }
@@ -113,3 +128,45 @@
     color: var(--text-secondary);
     padding: 7px 16px;
 }
+
+
+
+/* ****** */
+.tijd-lijn {
+    /* standaard styling weghalen */
+    list-style-type: none;
+    list-style: none;
+
+    /* verticale list */
+    display: flex;
+    flex-direction: column;
+
+    li {
+        /* spatie tussen li */
+        position: relative;
+        padding: 2em;
+    }
+
+    li::after {
+        /* de lijn */
+        content: "- - - - -";
+
+        position: absolute;
+
+        /* 90deg draaien, en dan 70% naar links */
+        transform: translateX(-70%) rotate(90deg);
+
+        /* spatie tussen li en content */
+        margin-top: 3em;
+        margin-bottom: 3em;
+
+        /* lijn gaat niet over naar de volgende regel */
+        white-space: nowrap;
+    }
+
+    /* geen lijn na de laaste li */
+    li:last-child::after {
+        content: '';
+    }
+}
+
