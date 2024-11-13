@@ -1,46 +1,146 @@
-/* Schrijf hier de verschillende stijlen, die gedeeld gaan
-   worden door jullie projecten */
+
 
 /* font-size:clamp(1em, 5vw, 2em) */
 /* font-size:clamp(1em, cqw, 2em) */
-/* Kleuren */
+
+/* global */
 body {
     --font-primary: "Brutal Type";
 
-    --background-neutral: #ffffff;
-
-    --brand-primary: #0091FF;
-    --brand-secondary: #E60063;
-    --brand-footer: #011564;
-    --brand-neutral: #fafafa;
-
-    --text-primary: #000000;
-    --text-secondary: #8B8B8B;
-    --text-on-brand: #ffffff;
-
-    --font-size-xl: 28px;
-    --font-size-l: 16px;
-    --font-size-m: 12px;
     --font-size-s: 10px;
+    --font-size-m: 12px;
+    --font-size-l: 16px;
+    --font-size-xl: 28px;
 
-    --line-height-l: 24px;
-    --line-height-m: 18px;
     --line-height-s: 15px;
+    --line-height-m: 18px;
+    --line-height-l: 24px;
 
     --font-weight-baseline: 900;
 }
 
+/* Kleuren */
+/* Veronica */
+.brand-primary-veronica {
+    --brand-primary: #0091FF;
+}
 
-/* kleuren als classes */
+.brand-secondary-veronica {
+    --brand-secondary: #E60063;
+}
+
+.brand-footer-veronica {
+    --brand-footer: #011564;
+}
+
+.background-neutral-veronica {
+    --background-neutral: #fafafa;     
+}
+
+.brand-neutral-veronica {
+    --brand-neutral: #ffffff;
+}
+
+.text-primary-veronica {
+    --text-primary: #000000;
+}
+
+.text-secondary-veronica {
+    --text-secondary: #8B8B8B;
+}
+
+.text-on-brand-veronica {
+    --text-on-brand: #ffffff;
+}
+
+/* Slam */
+.brand-primary-slam {
+    --brand-primary: #000000;
+}
+
+.brand-secondary-slam {
+    --brand-secondary: #E60063;
+}
+
+.brand-neutral-slam {
+    --brand-neutral: #222222;
+}
+
+.background-neutral-slam {
+    --background-neutral: #000000;
+}
+
+.text-primary-slam {
+    --text-primary: #FFFFFF;
+}
+
+.text-secondary-slam {
+    --text-secondary: #5D5D5D;
+}
+
+/* Sublime */
+.brand-primary-sublime {
+    --brand-primary: #1A1E1D;
+}
+
+.brand-secondary-sublime {
+    --brand-secondary: #CCFFA3; 
+}
+
+.brand-neutral-sublime {
+    --brand-neutral: #1A1E1D; 
+}
+
+.background-neutral-sublime {
+    --background-neutral: #252929; 
+}
+
+.text-primary-sublime {
+    --text-primary: #FFFFFF;
+}
+
+.text-secondary-sublime {
+    --text-secondary: #8D8F8E;
+}
+
+/* 100%NL */
+.brand-primary-100p {
+    --brand-primary: #000000; 
+}
+
+.brand-secondary-100p {
+    --brand-secondary: #10A637;
+}
+
+.brand-neutral-100p {
+    --brand-neutral: #FAFAFA;
+}
+
+.background-neutral-100p {
+    --background-neutral: #FFFFFF;
+}
+
+.text-primary-100p {
+    --text-primary: #1E1E1E;
+}
+
+.text-secondary-100p {
+    --text-secondary: #8B8B8B;
+}
+
+/* Kleuren in classes */
 .brand-primary {
     background-color: var(--brand-primary);
 }
+
 .brand-secondary {
     background-color: var(--brand-secondary);
 }
+
 .brand-footer {
     background-color: var(--brand-footer);
 }
+
 .brand-neutral {
     background-color: var(--brand-neutral);
 }
@@ -52,14 +152,14 @@ body {
 .text-primary {
     background-color: var(--text-primary);
 }
+
 .text-secondary {
     background-color: var(--text-secondary);
 }
+
 .text-on-brand {
     background-color: var(--text-on-brand);
 }
-
-
 
 /* Typografie */
 * {
