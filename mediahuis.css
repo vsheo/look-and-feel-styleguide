@@ -1,9 +1,10 @@
 /* Schrijf hier de verschillende stijlen, die gedeeld gaan
    worden door jullie projecten */
 
-
+/* font-size:clamp(1em, 5vw, 2em) */
+/* font-size:clamp(1em, cqw, 2em) */
 /* Kleuren */
-:root {
+body {
     --font-primary: "Brutal Type";
 
     --brand-primary: #0091FF;
@@ -16,115 +17,126 @@
     --text-primary: #000000;
     --text-secondary: #8B8B8B;
     --text-on-brand: #ffffff;
+
+    --font-size-28: 28px;
+    --font-size-16: 16px;
+    --font-size-12: 12px;
+    --font-size-10: 10px;
+
+    --line-height-24: 24px;
+    --line-height-18: 18px;
+    --line-height-15: 15px;
+
+    --font-weight-900: 900;
 }
 
 .brand-primary {
-    background-color: #0091FF;
+    background-color: var(--brand-primary);
 }
 .brand-secondary {
-    background-color: #E60063;
+    background-color: var(--brand-secondary);
 }
 .brand-footer {
-    background-color: #011564;
+    background-color: var(--brand-footer);
 }
 .brand-neutral {
-    background-color: #fafafa;
+    background-color: var(--brand-neutral);
 }
 
 .background-neutral {
-    background-color: #ffffff;
+    background-color: var(--background-neutral);
 }
 
 .text-primary {
-    background-color: #000000;
+    background-color: var(--text-primary);
 }
 .text-secondary {
-    background-color: #8B8B8B;
+    background-color: var(--text-secondary);
 }
 .text-on-brand {
-    background-color: #ffffff;
+    background-color: var(--text-on-brand);
 }
 
 
 
 /* Typografie */
 * {
-    line-height: 24px;
+    line-height: var(--line-height-24);
 }
 
 .font-nav-primary {
     font: var(--font-primary);
     color: var(--text-on-brand);
-    font-size: 16px;
-    font-weight: 900;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-900);
 }
 
 .font-nav-secondary {
     font: var(--font-primary);
     color: var(--brand-secondary);
-    font-size: 16px;
-    font-weight: 900;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-900);
 }
 
 .font-card-title {
     font: var(--font-primary);
     color: var(--text-primary);
-    font-size: 16px;
-    font-weight: 900;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-900);
 }
 
 .font-card-description {
     font: var(--font-primary);
     color: var(--text-secondary);
-    font-size: 12px;
-    font-weight: 900;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-900);
 }
 
 .font-card-info {
     font: var(--font-primary);
     color: var(--text-secondary);
-    font-size: 12px;
-    font-weight: 900;
-    line-height: 18px;
+    font-size: var(--font-size-12);
+    font-weight: var(--font-weight-900);
+    line-height: var(--line-height-18);
 }
 
 .font-info {
     font: var(--font-primary);
     color: var(--text-primary);
-    font-size: 28px;
-    font-weight: 900;
+    font-size: var(--font-size-28);
+    font-weight: var(--font-weight-900);
 }
 
 .font-title {
     font: var(--font-primary);
     color: var(--text-primary);
-    font-size: 16px;
-    font-weight: 900;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-900);
 }
 
 
 /* Formulier elementen */
 .icon-search {
-    font-size: 10px;
+    font-size: var(--font-size-10);
+    line-height: var(--line-height-15);
+    color: var(--text-on-brand);
     height: 24px;
     width: 24px;
-    line-height: 15px;
-    color: var(--text-on-brand);
 }
 
 .button-highlight {
-    font-size: 10px;
-    height: 24px;
-    width: 24px;
-    line-height: 15px;
+    font-size: var(--font-size-10);
+    line-height: var(--line-height-15);
     color: var(--text-on-brand);
     background-color: var(--brand-secondary);
+    height: 24px;
+    width: 24px;
     padding: 8px 16px;
-    opacity: 0,5;
+    opacity: 0.5;
 }
 
 .input-placeholder {
-    font-size: 16px;
+    font-size: var(--font-size-16);
     color: var(--text-secondary);
     padding: 7px 16px;
 }
