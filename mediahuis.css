@@ -149,15 +149,15 @@ body {
 }
 
 .text-primary {
-    background-color: var(--text-primary);
+    color: var(--text-primary);
 }
 
 .text-secondary {
-    background-color: var(--text-secondary);
+    color: var(--text-secondary);
 }
 
 .text-on-brand {
-    background-color: var(--text-on-brand);
+    color: var(--text-on-brand);
 }
 
 /* Typografie */
