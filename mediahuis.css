@@ -7,29 +7,31 @@
 body {
     --font-primary: "Brutal Type";
 
+    --background-neutral: #ffffff;
+
     --brand-primary: #0091FF;
     --brand-secondary: #E60063;
     --brand-footer: #011564;
     --brand-neutral: #fafafa;
 
-    --background-neutral: #ffffff;
-
     --text-primary: #000000;
     --text-secondary: #8B8B8B;
     --text-on-brand: #ffffff;
 
-    --font-size-28: 28px;
-    --font-size-16: 16px;
-    --font-size-12: 12px;
-    --font-size-10: 10px;
+    --font-size-xl: 28px;
+    --font-size-l: 16px;
+    --font-size-m: 12px;
+    --font-size-s: 10px;
 
-    --line-height-24: 24px;
-    --line-height-18: 18px;
-    --line-height-15: 15px;
+    --line-height-l: 24px;
+    --line-height-m: 18px;
+    --line-height-s: 15px;
 
-    --font-weight-900: 900;
+    --font-weight-baseline: 900;
 }
 
+
+/* kleuren als classes */
 .brand-primary {
     background-color: var(--brand-primary);
 }
@@ -61,72 +63,72 @@ body {
 
 /* Typografie */
 * {
-    line-height: var(--line-height-24);
+    line-height: var(--line-height-l);
 }
 
 .font-nav-primary {
     font: var(--font-primary);
     color: var(--text-on-brand);
-    font-size: var(--font-size-16);
-    font-weight: var(--font-weight-900);
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-baseline);
 }
 
 .font-nav-secondary {
     font: var(--font-primary);
     color: var(--brand-secondary);
-    font-size: var(--font-size-16);
-    font-weight: var(--font-weight-900);
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-baseline);
 }
 
 .font-card-title {
     font: var(--font-primary);
     color: var(--text-primary);
-    font-size: var(--font-size-16);
-    font-weight: var(--font-weight-900);
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-baseline);
 }
 
 .font-card-description {
     font: var(--font-primary);
     color: var(--text-secondary);
-    font-size: var(--font-size-16);
-    font-weight: var(--font-weight-900);
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-baseline);
 }
 
 .font-card-info {
     font: var(--font-primary);
     color: var(--text-secondary);
-    font-size: var(--font-size-12);
-    font-weight: var(--font-weight-900);
-    line-height: var(--line-height-18);
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-baseline);
+    line-height: var(--line-height-m);
 }
 
 .font-info {
     font: var(--font-primary);
     color: var(--text-primary);
-    font-size: var(--font-size-28);
-    font-weight: var(--font-weight-900);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-baseline);
 }
 
 .font-title {
     font: var(--font-primary);
     color: var(--text-primary);
-    font-size: var(--font-size-16);
-    font-weight: var(--font-weight-900);
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-baseline);
 }
 
 
 /* Formulier elementen */
 .icon-search {
-    font-size: var(--font-size-10);
-    line-height: var(--line-height-15);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height-s);
     color: var(--text-on-brand);
     height: 24px;
     width: 24px;
 }
 
 .button-highlight {
-    font-size: var(--font-size-10);
-    line-height: var(--line-height-15);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height-s);
     color: var(--text-on-brand);
     background-color: var(--brand-secondary);
     height: 24px;
@@ -136,49 +138,7 @@ body {
 }
 
 .input-placeholder {
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-l);
     color: var(--text-secondary);
     padding: 7px 16px;
 }
-
-
-
-/* ****** */
-.tijd-lijn {
-    /* standaard styling weghalen */
-    list-style-type: none;
-    list-style: none;
-
-    /* verticale list */
-    display: flex;
-    flex-direction: column;
-
-    li {
-        /* spatie tussen li */
-        position: relative;
-        padding: 2em;
-    }
-
-    li::after {
-        /* de lijn */
-        content: "- - - - -";
-
-        position: absolute;
-
-        /* 90deg draaien, en dan 70% naar links */
-        transform: translateX(-70%) rotate(90deg);
-
-        /* spatie tussen li en content */
-        margin-top: 3em;
-        margin-bottom: 3em;
-
-        /* lijn gaat niet over naar de volgende regel */
-        white-space: nowrap;
-    }
-
-    /* geen lijn na de laaste li */
-    li:last-child::after {
-        content: '';
-    }
-}
-
