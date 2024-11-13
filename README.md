@@ -3,7 +3,7 @@
 Ontwerp en maak met een team een styleguide om te gebruiken voor een opdracht van een opdrachtgever.
 
 ## Kleuren
-De kleuren van de huisstijl van Radio Veronica zijn gecategoriseerd als: `brand` `background` en `text`. Zie onderstaande afbeeldingen voor de juiste toepassingen. 
+De kleuren van de huisstijl van Radio Veronica zijn gecategoriseerd als: `brand` `background` en `text`. Zie onderstaande afbeeldingen voor de juiste toepassingen. Zie hier het overzicht van de kleuren voor alle radiozenders: https://vsheo.github.io/look-and-feel-styleguide/.
 
 <img src="https://github.com/user-attachments/assets/247a1ea0-4487-481b-ab17-a63f59d7dc63" width="350">
 <img src="https://github.com/user-attachments/assets/3d007add-53ea-4f64-981a-df5157de105b" width="350">
@@ -30,7 +30,8 @@ Er gelden een aantal afspraken m.b.t. aanpassen en/of aanvullingen doen van deze
 1. Bij een aanpassing en/of aanvulling dient er een issue gemaakt te worden met toelichting over de wijziging of toevoeging. Hierbij moet een visueel voorbeeld weergegeven worden en de nieuwe code. Ook moeten de overige teamleden getagd worden en toestemming geven en/of aanvullingen geven. Daarna kan de code gewijzigd en gepusht worden.
 2. Iedereen moet het met de aanpassing en/of aanvulling eens zijn.
 3. Alleen de persoon die de wijziging heeft voorgesteld wijzigt de code en pusht dit, om merge conflicten te voorkomen.
-4. Wanneer er gepusht is, worden de andere teamleden ingelicht, zodat zij de actuele code kunnen pullen en met de juiste versie van de stylesheet kunnen werken.  
+4. Wanneer er gepusht is, worden de andere teamleden ingelicht, zodat zij de actuele code kunnen pullen en met de juiste versie van de stylesheet kunnen werken.
+5. <strong>Naamgeving</strong>: [naam element]-[element]-[beschrijving wat de property doet]
 
 
 ## Licentie
