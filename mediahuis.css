@@ -1,5 +1,4 @@
 
-
 /* font-size:clamp(1em, 5vw, 2em) */
 /* font-size:clamp(1em, cqw, 2em) */
 
@@ -162,55 +161,119 @@ body {
 }
 
 /* Typografie */
-* {
+/* @fontface */
+/* Extra Light */
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('./font/BrutalType-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Medium */
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('./font/BrutalType-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('./font/BrutalType-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Thin */
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('./font/BrutalType-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Extra Bold */
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('./font/BrutalType-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Black */
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('./font/BrutalType-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Light */
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('./font/BrutalType-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Brutal Type Normal */
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('./font/BrutalType.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
     line-height: var(--line-height-l);
+    font-family: var(--font-primary);
 }
 
 .font-nav-primary {
-    font: var(--font-primary);
+    /* font: var(--font-primary); */
     color: var(--text-on-brand);
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-baseline);
 }
 
 .font-nav-secondary {
-    font: var(--font-primary);
+    /* font: var(--font-primary); */
     color: var(--brand-secondary);
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-baseline);
 }
 
 .font-card-title {
-    font: var(--font-primary);
+    /* font: var(--font-primary); */
     color: var(--text-primary);
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-baseline);
 }
 
 .font-card-description {
-    font: var(--font-primary);
+    /* font: var(--font-primary); */
     color: var(--text-secondary);
     font-size: var(--font-size-l);
-    font-weight: var(--font-weight-baseline);
 }
 
 .font-card-info {
-    font: var(--font-primary);
+    /* font: var(--font-primary); */
     color: var(--text-secondary);
     font-size: var(--font-size-m);
-    font-weight: var(--font-weight-baseline);
     line-height: var(--line-height-m);
 }
 
 .font-info {
-    font: var(--font-primary);
+    /* font: var(--font-primary); */
     color: var(--text-primary);
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-baseline);
 }
 
 .font-title {
-    font: var(--font-primary);
+    /* font: var(--font-primary); */
     color: var(--text-primary);
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-baseline);
