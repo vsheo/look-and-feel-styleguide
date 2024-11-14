@@ -1,8 +1,10 @@
+/* === EVENTUELE LATEREN TOEVOEGINGEN === */
 
 /* font-size:clamp(1em, 5vw, 2em) */
 /* font-size:clamp(1em, cqw, 2em) */
 
-/* global */
+/* === GLOBAL === */
+
 body {
     --font-primary: "Brutal Type";
 
@@ -16,9 +18,13 @@ body {
     --line-height-l: 24px;
 
     --font-weight-baseline: 900;
+
+    line-height: var(--line-height-l);
+    font-family: var(--font-primary);
 }
 
-/* Kleuren */
+/* === KLEUREN === */
+
 /* Veronica */
 .brand-primary-veronica {
     --brand-primary: #0091FF;
@@ -160,7 +166,8 @@ body {
     color: var(--text-on-brand);
 }
 
-/* Typografie */
+/* === TYPOGRAFIE === */
+
 /* @fontface */
 /* Extra Light */
 @font-face {
@@ -226,11 +233,6 @@ body {
     font-style: normal;
 }
 
-body {
-    line-height: var(--line-height-l);
-    font-family: var(--font-primary);
-}
-
 .font-nav-primary {
     /* font: var(--font-primary); */
     color: var(--text-on-brand);
@@ -280,7 +282,8 @@ body {
 }
 
 
-/* Formulier elementen */
+/* === FORMULIEREN === */
+
 .icon-search {
     font-size: var(--font-size-s);
     line-height: var(--line-height-s);
