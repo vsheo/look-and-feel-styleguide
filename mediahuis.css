@@ -108,6 +108,11 @@ body {
     --text-secondary: #8D8F8E;
 }
 
+.sublime-btn-highlight {
+    --brand-secondary: #65a332;
+}
+
+
 /* 100%NL */
 .honderdp-primary {
     --brand-primary: #000000; 
@@ -136,33 +141,41 @@ body {
 /* Kleuren in classes */
 .primary {
     background-color: var(--brand-primary);
+    color: var(--brand-primary)
 }
 
 .secondary {
     background-color: var(--brand-secondary);
+    color: var(--brand-secondary);
 }
 
 .footer {
     background-color: var(--brand-footer);
+    color: var(--brand-footer);
 }
 
 .neutral {
     background-color: var(--brand-neutral);
+    color: var(--brand-neutral);
 }
 
 .background-neutral {
     background-color: var(--background-neutral);
+    color: var(--background-neutral);
 }
 
 .text-primary {
     color: var(--text-primary);
+    color: var(--text-primary);
 }
 
 .text-secondary {
+    background-color: var(--text-secondary);
     color: var(--text-secondary);
 }
 
 .text-on-brand {
+    background-color: var(--text-on-brand);
     color: var(--text-on-brand);
 }
 
@@ -292,15 +305,21 @@ body {
     width: 24px;
 }
 
+/* button en link als button */
 .button-highlight {
     font-size: var(--font-size-s);
     line-height: var(--line-height-s);
     color: var(--text-on-brand);
+
     background-color: var(--brand-secondary);
-    height: 24px;
-    width: 24px;
-    padding: 8px 16px;
-    opacity: 0.5;
+    border: 1px solid var(--brand-secondary);
+
+    cursor: pointer;
+}
+
+.button-highlight:hover {
+    background-color: var(--brand-neutral);
+    color: var(--brand-secondary);
 }
 
 .input-placeholder {
