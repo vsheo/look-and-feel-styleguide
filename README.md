@@ -1,13 +1,28 @@
 # Styleguide
 
-Ontwerp en maak met een team een styleguide om te gebruiken voor een opdracht van een opdrachtgever.
+Zie hier de stylesheet: https://vsheo.github.io/look-and-feel-styleguide/.
 
 ## Kleuren
-De kleuren van de huisstijl van Radio Veronica zijn gecategoriseerd als: `brand` `background` en `text`. Zie onderstaande afbeeldingen voor de juiste toepassingen. Zie hier het overzicht van de kleuren voor alle radiozenders: https://vsheo.github.io/look-and-feel-styleguide/.
+De kleuren van de huisstijlen van de verschillende zenders zijn gecategoriseerd als: `brand` `background` en `text`. 
 
-<img src="https://github.com/user-attachments/assets/247a1ea0-4487-481b-ab17-a63f59d7dc63" width="350">
-<img src="https://github.com/user-attachments/assets/3d007add-53ea-4f64-981a-df5157de105b" width="350">
-<img src="https://github.com/user-attachments/assets/e1e4ebf6-281d-4940-8937-e81e2955d52c" width="350">
+Zie onderstaande afbeeldingen voor de juiste toepassingen (Radio Veronica als voorbeeld). 
+
+Zie hier het overzicht van de kleuren voor alle radiozenders: https://vsheo.github.io/look-and-feel-styleguide/.
+
+<img src="https://github.com/user-attachments/assets/2a592a7f-eee9-4bbd-9724-11a273241aa6" width="350">
+<img src="https://github.com/user-attachments/assets/9cf589eb-b4ea-48fe-a02e-75deb1cf24ed" width="350">
+
+### Toepassen
+Voeg in HTML 2 `class`es toe: 
+* "brand-primary" dit verwijst naar de toepassing van de kleur (bijvoorbeeld de kleur van de zender)
+* "brand-primary-veronica" dit verwijst naar de kleur van de juiste zender (in dit voorbeeld dus de blauwe kleur van Veronica)
+
+```html
+    <figure>
+      <code class="brand-primary brand-primary-veronica">#0091FF</code>
+      <figcaption>Brand-kleur Veronica</figcaption>
+    </figure>
+```
 
 ## Typografie
 Het font is <em>Brutal Type</em> en deze wordt voor de hele pagina gebruikt. Zie onderstaande afbeeldingen voor de juiste toepassingen. 
@@ -15,15 +30,22 @@ Het font is <em>Brutal Type</em> en deze wordt voor de hele pagina gebruikt. Zie
 <img src="https://github.com/user-attachments/assets/07b79183-0f82-4aff-8648-b72f4bbafad7" width="350">
 <img src="https://github.com/user-attachments/assets/161ae635-449f-43ae-be32-b4319cba0826" width="350">
 
+### Toepassen
+Voeg in HTML 1 `class` toe, van het font dat je wilt toepassen: 
+* "font-title" verwijst naar de gewilde styling van het font
+
+```html
+  <p class="font-title"> <strong>Titels van artikelen</strong><br>Lorem ipsum dolor sit amet</p> 
+```
+
 ## Forms
 Voor forms kunnen de classes `input-placeholder` en `button-highlight` gebruikt worden. Zie onderstaande afbeelding voor de juiste toepassing. 
 
 <img src="https://github.com/user-attachments/assets/80969049-5b08-4ecc-bfdc-2507e8536813" width="350">
 
-## Links
-Voor `a` tags met een afbeelding, zonder tekst kunnen de classes `icon` en `icon-hover` gebruikt worden. Zie onderstaande afbeelding de juiste toepassing. 
-
-<img src="https://github.com/user-attachments/assets/77798c84-b404-4ace-ab86-ef7a7691527e" width="350">
+### Toepassen
+Voeg in HTML 1 `class` toe, van het element dat je wilt toepassen: 
+* "button-highlight" verwijst bijvoorbeeld naar de juiste styling van de knop
 
 ## Afspraken
 Er gelden een aantal afspraken m.b.t. aanpassen en/of aanvullingen doen van deze stylesheet: 
