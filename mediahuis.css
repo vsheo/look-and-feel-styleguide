@@ -26,127 +26,127 @@ body {
 /* === KLEUREN === */
 
 /* Veronica */
-.brand-primary-veronica {
+.veronica-primary {
     --brand-primary: #0091FF;
 }
 
-.brand-secondary-veronica {
+.veronica-secondary {
     --brand-secondary: #E60063;
 }
 
-.brand-footer-veronica {
+.veronica-footer {
     --brand-footer: #011564;
 }
 
-.background-neutral-veronica {
+.veronica-background-neutral {
     --background-neutral: #fafafa;     
 }
 
-.brand-neutral-veronica {
+.veronica-neutral {
     --brand-neutral: #ffffff;
 }
 
-.text-primary-veronica {
+.veronica-text-primary {
     --text-primary: #000000;
 }
 
-.text-secondary-veronica {
+.veronica-text-secondary {
     --text-secondary: #8B8B8B;
 }
 
-.text-on-brand-veronica {
+.veronica-text-on-brand {
     --text-on-brand: #ffffff;
 }
 
 /* Slam */
-.brand-primary-slam {
+.slam-primary {
     --brand-primary: #000000;
 }
 
-.brand-secondary-slam {
+.slam-secondary {
     --brand-secondary: #E60063;
 }
 
-.brand-neutral-slam {
+.slam-neutral {
     --brand-neutral: #222222;
 }
 
-.background-neutral-slam {
+.slam-background-neutral {
     --background-neutral: #000000;
 }
 
-.text-primary-slam {
+.slam-text-primary {
     --text-primary: #FFFFFF;
 }
 
-.text-secondary-slam {
+.vtext-secondary {
     --text-secondary: #5D5D5D;
 }
 
 /* Sublime */
-.brand-primary-sublime {
+.sublime-primary {
     --brand-primary: #1A1E1D;
 }
 
-.brand-secondary-sublime {
+.sublime-secondary {
     --brand-secondary: #CCFFA3; 
 }
 
-.brand-neutral-sublime {
+.sublime-neutral {
     --brand-neutral: #1A1E1D; 
 }
 
-.background-neutral-sublime {
+.sublime-background-neutral {
     --background-neutral: #252929; 
 }
 
-.text-primary-sublime {
+.sublime-text-primary {
     --text-primary: #FFFFFF;
 }
 
-.text-secondary-sublime {
+.sublime-text-secondary {
     --text-secondary: #8D8F8E;
 }
 
 /* 100%NL */
-.brand-primary-100p {
+.honderdp-primary {
     --brand-primary: #000000; 
 }
 
-.brand-secondary-100p {
+.honderdp-secondary {
     --brand-secondary: #10A637;
 }
 
-.brand-neutral-100p {
+.honderdp-neutral {
     --brand-neutral: #FAFAFA;
 }
 
-.background-neutral-100p {
+.honderdp-background-neutral {
     --background-neutral: #FFFFFF;
 }
 
-.text-primary-100p {
+.honderdp-text-primary {
     --text-primary: #1E1E1E;
 }
 
-.text-secondary-100p {
+.honderdp-text-secondary {
     --text-secondary: #8B8B8B;
 }
 
 /* Kleuren in classes */
-.brand-primary {
+.primary {
     background-color: var(--brand-primary);
 }
 
-.brand-secondary {
+.secondary {
     background-color: var(--brand-secondary);
 }
 
-.brand-footer {
+.footer {
     background-color: var(--brand-footer);
 }
 
-.brand-neutral {
+.neutral {
     background-color: var(--brand-neutral);
 }
 
