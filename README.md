@@ -1,27 +1,42 @@
-# Styleguide
+# Stylesheet Mediahuis
 
-Zie hier de stylesheet: https://vsheo.github.io/look-and-feel-styleguide/.
+## Inleiding
+
+Deze Stylesheet is gemaakt voor de opdracht _[Mediahuis](https://github.com/fdnd-agency/triple)_ van _[Triple](https://www.wearetriple.com/en/)_
+
+Wij maken een website met daarop een radioguide waarbij de programmering van verschillende radiozenders te zien is. Hiervoor betrekken wij de huisstijl van elke zender (Radio Veronica, SLAM!, 100%NL en Sublime). Deze stylesheet biedt een overzicht van alle huisstijlen en maakt het mogelijk om deze stijlen toe te passen in eigen werk. 
+
+Zie [hier](https://vsheo.github.io/look-and-feel-styleguide/) de stylesheet
 
 ## Kleuren
-De kleuren van de huisstijlen van de verschillende zenders zijn gecategoriseerd als: `brand` `background` en `text`. 
+In de stylesheet zijn de kleuren van de 4 verschillende radiozenders van het Mediahuis verwerkt. Zie onderstaande afbeeldingen voor het juiste gebruik van deze kleuren:
 
-Zie onderstaande afbeeldingen voor de juiste toepassingen (Radio Veronica als voorbeeld). 
+<img src="https://github.com/user-attachments/assets/b0d1e8d1-8c15-43fd-8041-a2f926be6b93" width="300">
+<img src="https://github.com/user-attachments/assets/80fd41d7-6622-496a-821b-94400a9129bd" width="300">
+<img src="https://github.com/user-attachments/assets/aaee5b2e-b725-4b53-8994-91f70c425f94" width="300">
+<img src="https://github.com/user-attachments/assets/45ee68cb-1ac1-494e-8006-5636324a35e9" width="300">
 
-Zie hier het overzicht van de kleuren voor alle radiozenders: https://vsheo.github.io/look-and-feel-styleguide/.
+### Kleuren - Toepassen
+Om de kleuren toe te passen, moeten er 2 classes in HTML worden toegevoegd aan het element dat je kleur wilt geven. De eerste class geeft aan dát er een kleur wordt meegegeven en welke functie deze kleur heeft, en de tweede class geeft aan welke kleur van de verschillende radiozenders gebruikt moet worden.
 
-<img src="https://github.com/user-attachments/assets/2a592a7f-eee9-4bbd-9724-11a273241aa6" width="350">
-<img src="https://github.com/user-attachments/assets/9cf589eb-b4ea-48fe-a02e-75deb1cf24ed" width="350">
+In de stylesheet staan deze classes beschreven, zie onderstaand afbeelding: 
 
-### Toepassen
-Voeg in HTML 2 `class`es toe: 
-* "brand-primary" dit verwijst naar de toepassing van de kleur (bijvoorbeeld de kleur van de zender)
-* "brand-primary-veronica" dit verwijst naar de kleur van de juiste zender (in dit voorbeeld dus de blauwe kleur van Veronica)
+<img src="https://github.com/user-attachments/assets/6476ab18-8b2f-4c77-9ecb-a5cfc91d01f2" width="350">
+
+Stel je bent aan het werken aan de `footer` van Radio Veronica, dan gebruik je dus deze classes: 
 
 ```html
-    <figure>
-      <code class="brand-primary brand-primary-veronica">#0091FF</code>
-      <figcaption>Brand-kleur Veronica</figcaption>
-    </figure>
+<footer class="footer veronica-footer">
+    <p>Dit is de footer</p>
+<footer>
+```
+
+En als je de `footer` aan het maken bent van SLAM, dan pas je dus alleen `veronica-footer` aan, en wordt dit dus `slam-footer`:
+
+```html
+<footer class="footer slam-footer">
+    <p>Dit is de footer</p>
+<footer>
 ```
 
 ## Typografie
@@ -30,7 +45,7 @@ Het font is <em>Brutal Type</em> en deze wordt voor de hele pagina gebruikt. Zie
 <img src="https://github.com/user-attachments/assets/07b79183-0f82-4aff-8648-b72f4bbafad7" width="350">
 <img src="https://github.com/user-attachments/assets/161ae635-449f-43ae-be32-b4319cba0826" width="350">
 
-### Toepassen
+### Typografie - Toepassen
 Voeg in HTML 1 `class` toe, van het font dat je wilt toepassen: 
 * "font-title" verwijst naar de gewilde styling van het font
 
@@ -38,14 +53,15 @@ Voeg in HTML 1 `class` toe, van het font dat je wilt toepassen:
   <p class="font-title"> <strong>Titels van artikelen</strong><br>Lorem ipsum dolor sit amet</p> 
 ```
 
+## Buttons
+Voor `button`s en `a` tags kunnen onderstaande classes gebruikt worden, hierin is ook een `:hover` verwerkt: 
+
+<img src="https://github.com/user-attachments/assets/0af62436-f089-4875-92bd-0c779b0a8f6c" width="250">
+
 ## Forms
 Voor forms kunnen de classes `input-placeholder` en `button-highlight` gebruikt worden. Zie onderstaande afbeelding voor de juiste toepassing. 
 
 <img src="https://github.com/user-attachments/assets/80969049-5b08-4ecc-bfdc-2507e8536813" width="350">
-
-### Toepassen
-Voeg in HTML 1 `class` toe, van het element dat je wilt toepassen: 
-* "button-highlight" verwijst bijvoorbeeld naar de juiste styling van de knop
 
 ## Afspraken
 Er gelden een aantal afspraken m.b.t. aanpassen en/of aanvullingen doen van deze stylesheet: 
