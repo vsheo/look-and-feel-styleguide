@@ -6,7 +6,7 @@
 /* === GLOBAL === */
 
 body {
-    --font-primary: "Brutal Type";
+    --font-primary: "Brutal Type", sans-serif;
 
     --font-size-s: 10px;
     --font-size-m: 12px;
@@ -79,7 +79,7 @@ body {
     --text-primary: #FFFFFF;
 }
 
-.vtext-secondary {
+.text-secondary {
     --text-secondary: #5D5D5D;
 }
 
@@ -141,42 +141,45 @@ body {
 /* Kleuren in classes */
 .primary {
     background-color: var(--brand-primary);
-    color: var(--brand-primary)
+    /* color: var(--brand-primary) */
 }
 
 .secondary {
     background-color: var(--brand-secondary);
-    color: var(--brand-secondary);
+    /* color: var(--brand-secondary); */
 }
 
 .footer {
     background-color: var(--brand-footer);
-    color: var(--brand-footer);
+    /* color: var(--brand-footer); */
 }
 
 .neutral {
     background-color: var(--brand-neutral);
-    color: var(--brand-neutral);
+    /* color: var(--brand-neutral); */
 }
 
 .background-neutral {
     background-color: var(--background-neutral);
-    color: var(--background-neutral);
+    /* color: var(--background-neutral); */
 }
 
 .text-primary {
     color: var(--text-primary);
-    color: var(--text-primary);
 }
 
 .text-secondary {
-    background-color: var(--text-secondary);
+    /* background-color: var(--text-secondary); */
     color: var(--text-secondary);
 }
 
 .text-on-brand {
-    background-color: var(--text-on-brand);
+    /* background-color: var(--text-on-brand); */
     color: var(--text-on-brand);
+}
+
+.text-highlight {
+    color: var(--brand-secondary);
 }
 
 /* === TYPOGRAFIE === */
@@ -248,48 +251,48 @@ body {
 
 .font-nav-primary {
     /* font: var(--font-primary); */
-    color: var(--text-on-brand);
+    /* color: var(--text-on-brand); */
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-baseline);
 }
 
 .font-nav-secondary {
     /* font: var(--font-primary); */
-    color: var(--brand-secondary);
+    /* color: var(--brand-secondary); */
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-baseline);
 }
 
 .font-card-title {
     /* font: var(--font-primary); */
-    color: var(--text-primary);
+    /* color: var(--text-primary); */
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-baseline);
 }
 
 .font-card-description {
     /* font: var(--font-primary); */
-    color: var(--text-secondary);
+    /* color: var(--text-secondary); */
     font-size: var(--font-size-l);
 }
 
 .font-card-info {
     /* font: var(--font-primary); */
-    color: var(--text-secondary);
+    /* color: var(--text-secondary); */
     font-size: var(--font-size-m);
     line-height: var(--line-height-m);
 }
 
 .font-info {
     /* font: var(--font-primary); */
-    color: var(--text-primary);
+    /* color: var(--text-primary); */
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-baseline);
 }
 
 .font-title {
     /* font: var(--font-primary); */
-    color: var(--text-primary);
+    /* color: var(--text-primary); */
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-baseline);
 }
@@ -309,7 +312,7 @@ body {
 .button-highlight {
     font-size: var(--font-size-s);
     line-height: var(--line-height-s);
-    color: var(--text-on-brand);
+    /* color: var(--text-on-brand); */
 
     background-color: var(--brand-secondary);
     border: 1px solid var(--brand-secondary);
