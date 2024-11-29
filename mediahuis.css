@@ -8,10 +8,10 @@
 body {
     --font-primary: "Brutal Type", sans-serif;
 
-    --font-size-s: 10px;
-    --font-size-m: 12px;
-    --font-size-l: 16px;
-    --font-size-xl: 28px;
+    --font-size-s: 0.625em;
+    --font-size-m: 0.75em;
+    --font-size-l: 1em;
+    --font-size-xl: 1.75em;
 
     --line-height-s: 15px;
     --line-height-m: 18px;
