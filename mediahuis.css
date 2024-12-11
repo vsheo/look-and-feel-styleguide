@@ -43,86 +43,35 @@ body {
 /* === KLEUREN === */
 
 /* Veronica */
-.veronica-primary {
-    --brand-primary: #0091FF;
-}
-
-.veronica-secondary {
+.veronica {
+    --brand-primary: #0091FF; 
     --brand-secondary: #E60063;
-}
-
-.veronica-footer {
     --brand-footer: #011564;
-}
-
-.veronica-background-neutral {
-    --background-neutral: #fafafa;     
-}
-
-.veronica-neutral {
+    --background-neutral: #fafafa;
     --brand-neutral: #ffffff;
-}
-
-.veronica-text-primary {
     --text-primary: #000000;
-}
-
-.veronica-text-secondary {
     --text-secondary: #8B8B8B;
+    --text-on-brand: #ffffff;   
 }
 
-.veronica-text-on-brand {
-    --text-on-brand: #ffffff;
-}
-
-/* Slam */
-.slam-primary {
+/* SLAM */
+.slam {
     --brand-primary: #000000;
-}
-
-.slam-secondary {
     --brand-secondary: #E60063;
-}
-
-.slam-neutral {
     --brand-neutral: #222222;
-}
-
-.slam-background-neutral {
     --background-neutral: #000000;
-}
-
-.slam-text-primary {
     --text-primary: #FFFFFF;
-}
-
-.text-secondary {
     --text-secondary: #5D5D5D;
 }
 
 /* Sublime */
-.sublime-primary {
+.sublime {
     --brand-primary: #1A1E1D;
-}
-
-.sublime-secondary {
-    --brand-secondary: #CCFFA3; 
-}
-
-.sublime-neutral {
-    --brand-neutral: #1A1E1D; 
-}
-
-.sublime-background-neutral {
-    --background-neutral: #252929; 
-}
-
-.sublime-text-primary {
+    --brand-secondary: #CCFFA3;
+    --brand-neutral: #1A1E1D;
+    --background-neutral: #252929;
     --text-primary: #FFFFFF;
-}
-
-.sublime-text-secondary {
-    --text-secondary: #8D8F8E;
+    --text-secondary: #8D8F8E;    
 }
 
 .sublime-btn-highlight {
@@ -131,27 +80,12 @@ body {
 
 
 /* 100%NL */
-.honderdp-primary {
-    --brand-primary: #000000; 
-}
-
-.honderdp-secondary {
+.honderdp {
+    --brand-primary: #000000;
     --brand-secondary: #10A637;
-}
-
-.honderdp-neutral {
     --brand-neutral: #FAFAFA;
-}
-
-.honderdp-background-neutral {
     --background-neutral: #FFFFFF;
-}
-
-.honderdp-text-primary {
     --text-primary: #1E1E1E;
-}
-
-.honderdp-text-secondary {
     --text-secondary: #8B8B8B;
 }
 
